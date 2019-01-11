@@ -1,7 +1,7 @@
-import {ADD_ARTICLE} from "../constants/action-types";
+import { ADD_ARTICLE, FOUND_BAD_WORD } from "../constants/action-types";
 
 const initialState = {
-  articles: []
+  articles: [],
 };
 
 function rootReducer(state = initialState, action) {
