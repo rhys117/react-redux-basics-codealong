@@ -1,5 +1,4 @@
 import { ADD_ARTICLE } from "../constants/action-types";
-import store from "../store";
 
 const forbiddenWords = ["spam", "money"];
 

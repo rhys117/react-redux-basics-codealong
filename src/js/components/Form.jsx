@@ -14,8 +14,7 @@ class ConnectedForm extends Component {
     super();
 
     this.state = {
-      title: "",
-      badWord: null
+      title: ""
     };
 
     this.handleChange = this.handleChange.bind(this);
@@ -35,7 +34,7 @@ class ConnectedForm extends Component {
   }
 
   render() {
-    const { title, badWord } = this.state;
+    const { title } = this.state;
     return (
       <form onSubmit={this.handleSubmit}>
         <div className="form-group">
